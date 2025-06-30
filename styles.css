@@ -1,0 +1,45 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fff8f7;
+  color: #a3364f;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #ffe5ec;
+  padding: 1em;
+  text-align: center;
+}
+.logo {
+  max-width: 120px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+nav a {
+  text-decoration: none;
+  color: #a3364f;
+  font-weight: bold;
+}
+main {
+  padding: 2em;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  background-color: #ff7f9c;
+  color: white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  background-color: #ffe5ec;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
